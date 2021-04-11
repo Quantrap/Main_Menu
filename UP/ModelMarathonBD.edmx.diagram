@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cbe8fa45c8e14d26ac6c1fe2c093b9da" Name="Diagram1">
+        <EntityTypeShape EntityType="marathon_bdModel.Charity" Width="1.5" PointX="8.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Country" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Event" Width="1.5" PointX="8.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.EventType" Width="1.5" PointX="10.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Gender" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Marathon" Width="1.5" PointX="10.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Position" Width="1.5" PointX="3.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.RaceKitOption" Width="1.5" PointX="3.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Registration" Width="1.5" PointX="5.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.RegistrationEvent" Width="1.5" PointX="10.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.RegistrationStatus" Width="1.5" PointX="7.75" PointY="10.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Role" Width="1.5" PointX="1.5" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Runner" Width="1.5" PointX="3" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Sponsorship" Width="1.5" PointX="10.75" PointY="9.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Staff" Width="1.5" PointX="6" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="11.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Timesheet" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.User" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="marathon_bdModel.Volunteer" Width="1.5" PointX="6" PointY="2.875" IsExpanded="true" />
+        <AssociationConnector Association="marathon_bdModel.FK__Runner__CountryC__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK__Volunteer__Count__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK__Runner__Gender__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK__Volunteer__Gende__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK_Staff__Position_" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK__User__RoleId__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK__Runner__Email__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="marathon_bdModel.FK_Лист1__Staff" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
